@@ -1,10 +1,10 @@
 function testNoteListView() {
-  var noteList = new NoteList;
+  var noteList = new NoteList();
   var text3 = "Rice";
   var text4 = "Eggs";
   noteList.createAndSave(text3);
   noteList.createAndSave(text4);
-   var noteListView = new NoteListView(noteList);
+  var noteListView = new NoteListView(noteList);
   noteListView.listToHTML(noteList);
   console.log(noteListView.listToHTML(noteList));
   console.log(['<div><li>Rice</li></div>', '<div><li>Eggs</li></div>']);

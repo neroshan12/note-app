@@ -9,5 +9,4 @@ Note.prototype.getText = function() {
 };
 
 exports.Note = Note;
-
 }) (this);
