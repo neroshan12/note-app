@@ -1,7 +1,5 @@
   function testNoteIncludesText() {
-    var text = 'My favourite language is JavaScript';
-    var note = new Note(text);
-
-    assert.isTrue(note.getText() === text);
+    var note = new Note('My favourite language is JavaScript');
+    assert.isTrue(note.getText() === 'My favourite language is JavaScript');
 }
 testNoteIncludesText();

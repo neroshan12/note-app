@@ -1,7 +1,6 @@
 (function(exports) {
 function Note(text) {
   this._text = text;
-
 }
 
 Note.prototype.getText = function() {
@@ -9,4 +8,4 @@ Note.prototype.getText = function() {
 };
 
 exports.Note = Note;
-}) (this);
+})(this);
